@@ -140,6 +140,98 @@ h1 {
   cursor: pointer;
 }
 
+.form {
+  width: 360px;
+  height: 497px;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block-form__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 87px;
+}
+.flex-p {
+  color: #444;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.block-button {
+  gap: 10px;
+  width: 280px;
+  height: 50px;
+  border-radius: 200px;
+  border: 1px solid #c0c2d7;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 46px;
+}
+
+span {
+  width: 1px;
+  height: 36px;
+  background: #c0c2d7;
+}
+.quantity-input {
+  width: 280px;
+  height: 50px;
+  border-radius: 200px;
+  border: 1px solid #c0c2d7;
+  background: #fff;
+  padding-left: 20px;
+}
+input[type="range"] {
+  width: 140px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 240px;
+  height: 1px;
+  background: #808080;
+}
+input[type="range"]::-webkit-slider-thumb {
+  padding-top: 20px;
+  width: 8px;
+  height: 23px;
+  border-radius: 100px;
+  background: #f4683f;
+  -webkit-appearance: none;
+  margin-top: -10px;
+}
+label {
+  margin-left: 50px;
+}
+.leb {
+  margin-left: 272px;
+}
+output,
+label {
+  position: absolute;
+  margin-top: 15px;
+}
+.outp {
+  margin-left: 215px;
+}
+.block-range {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
 /*description start*/
 .description {
   padding: 100px;
