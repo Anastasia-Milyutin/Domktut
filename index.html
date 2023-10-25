@@ -70,7 +70,30 @@
         </block>
 
         <block class="form">
-          <form action=""></form>
+          <form action="" class="form-flex">
+            <div class="block-form__flex">
+              <p class="flex-p">Въезд</p>
+              <p class="flex-p">Отъезд</p>
+            </div>
+            <div class="block-button">
+              <input type="date" class="btn" placeholder="От">
+              <span></span>
+              <input type="date" class="btn" placeholder="До">
+            </div>
+            <div class="block-quantity">
+              <p class="flex-p">Количество человек</p>
+              <input type="number" class="quantity-input" placeholder="12">
+            </div>
+            <div class="block-range">
+              <input type="range" value="1000" step="1000" min="13000" max="75000" oninput="this.nextElementSibling.value = this.value">
+              <output>13000</output>
+              <label for="text">р</label>
+              
+              <input type="range" value="1000" step="1000" min="75000" max="150000" oninput="this.nextElementSibling.value = this.value">
+              <output class="outp">75000</output>
+              <label class="leb" for="text">р</label>
+            </div>
+          </form>
         </block>
       </section>
     </section>
