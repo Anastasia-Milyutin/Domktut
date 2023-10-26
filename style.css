@@ -253,3 +253,120 @@ label {
   line-height: 160%;
 }
 /*description end*/
+
+/*catalog start*/
+.catalog {
+  margin-top: 100px;
+}
+.des-h {
+  margin-left: 100px;
+}
+.catalog__block-flex {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+.block {
+  position: relative;
+  width: 440px;
+  height: 600px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 80px 0px rgba(5, 9, 22, 0.08);
+}
+.elemen-person {
+  margin-top: 24px;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+  width: 92px;
+  height: 36px;
+  border-radius: 150px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.person-p {
+  color: #727488;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.heart {
+  cursor: pointer;
+  margin-top: 224px;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 20px 0px rgba(21, 22, 34, 0.2);
+}
+.heart-img {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.block__text {
+  padding: 20px;
+}
+h4 {
+  color: #333;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+.part-menu {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.element-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.menu-p {
+  color: #727488;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.part-cent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cent-p {
+  color: #333;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+.cent-a {
+  color: var(--active, #f4683f);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration: none;
+}
+/*catalog end*/
