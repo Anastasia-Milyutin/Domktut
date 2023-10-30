@@ -506,7 +506,8 @@ h4 {
   height: 775px;
 }
 .shadow {
-  margin-top: 400px;
+  width: 100%;
+  margin-top: 500px;
   position: absolute;
 }
 .appl__block-flex {
@@ -618,3 +619,42 @@ h3 {
   gap: 20px;
 }
 /*footer end*/
+
+
+@media (max-width: 1392px) {
+  .flex-mobile {
+    align-items: center;
+    flex-direction: column;
+    height: 2100px;
+    justify-content: right;
+}
+.dop-btn {
+  margin-left: -720px;
+}
+.cat-mobile{
+  margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+.cat-button{
+  position: absolute;
+  margin-left: 0px;
+    margin-top: 500px;
+}
+.elements-flex {
+  flex-direction: column;}
+  .block-search {
+    gap: 10px; 
+}
+.welcom-btn{
+  margin-left: 10px;
+}
+
+  .blo-search {
+    flex-direction: row;
+    gap: 10px;
+}
+
+}
