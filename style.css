@@ -450,7 +450,7 @@ h4 {
   justify-content: space-between;
   align-items: center;
 }
-.block-active {
+.block-activ {
   display: none;
   margin-top: 30px;
   position: absolute;
@@ -465,7 +465,7 @@ h4 {
   line-height: 160%;
   background-color: #fff;
 }
-.block-menu {
+.block-men {
   width: 16px;
   height: 16px;
   position: relative;
@@ -473,7 +473,7 @@ h4 {
   background-color: transparent;
   cursor: pointer;
 }
-.menu-icon__line {
+.menu-icon__lin {
   content: "";
   display: block;
   width: 3px;
@@ -481,7 +481,7 @@ h4 {
   background-color: #3b4244;
   transform: rotate(0deg);
 }
-.menu-icon__line::after {
+.menu-icon__lin::after {
   content: "";
   display: block;
   width: 3px;
@@ -490,14 +490,14 @@ h4 {
   position: absolute;
 }
 
-.block-menu-active .menu-icon__line::after {
+.block-menu-activ .menu-icon__lin::after {
   transform: rotate(90deg);
   transition: 0.2s;
 }
-.block-question-menu {
+.block-question-men {
   display: none;
 }
-.block-menu-active .block-question-menu {
+.block-menu-activ .block-question-men {
   position: absolute;
   z-index: 999;
 }
@@ -633,9 +633,6 @@ h3 {
     height: 2100px;
     justify-content: right;
   }
-  .dop-btn {
-    margin-left: -720px;
-  }
   .cat-mobile {
     margin-top: 80px;
     display: flex;
@@ -655,7 +652,7 @@ h3 {
     gap: 10px;
   }
   .welcom-btn {
-    margin-left: 10px;
+    margin-top: 60px;
   }
 
   .blo-search {
@@ -726,7 +723,6 @@ h3 {
   }
 
   .section-meny-mobile {
-    display: none;
     z-index: 999;
     position: fixed;
     top: 0;
@@ -739,7 +735,7 @@ h3 {
     align-items: center;
   }
   .mobil {
-    display: flex;
+    display: none;
   }
   .block-flex-mobil {
     display: flex;
@@ -752,6 +748,7 @@ h3 {
     height: 42px;
   }
   .block-logo-btn {
+    margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: row;
@@ -794,5 +791,33 @@ h3 {
   }
   .elements-flex {
     flex-direction: row;
+  }
+}
+@media (max-width: 1320px) {
+  .shadow {
+    margin-top: 530px;
+  }
+}
+@media (max-width: 1240px) {
+  .dop-btn {
+    margin-left: -630px;
+  }
+  .cat-button {
+    margin-left: 0;
+  }
+  .search-mobil,
+  .flex-mobil {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1162px) {
+  .dop-btn {
+    margin-left: -590px;
+  }
+  .cat-button {
+    margin-left: 0;
+  }
+  .shadow {
+    margin-top: 560px;
   }
 }
