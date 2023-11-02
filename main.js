@@ -24,3 +24,22 @@ menu.addEventListener("click", () => {
     header.style.display = "none";
   }
 });
+
+const formBtn = document.querySelector("#formBtn"),
+  formBlock = document.querySelector("#formBlock"),
+  formBtnNext = document.querySelector("#formBtnNext");
+
+formBtn.addEventListener("click", () => {
+  if (formBlock.style.display === "none") {
+    formBlock.style.display = "block";
+  } else {
+    formBlock.style.display = "block";
+  }
+});
+formBtnNext.addEventListener("click", () => {
+  if (formBlock.style.display === "block") {
+    formBlock.style.display = "none";
+  } else {
+    formBlock.style.display = "none";
+  }
+});
