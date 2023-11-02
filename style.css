@@ -821,3 +821,34 @@ h3 {
     margin-top: 560px;
   }
 }
+@media (max-width: 1093px) {
+  .dop-btn {
+    margin-left: -550px;
+  }
+  .cat-button {
+    margin-left: 0;
+  }
+}
+@media (max-width: 975px) {
+  .flex {
+    flex-direction: column;
+  }
+  .text {
+    margin-top: 80px;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .form {
+    display: none;
+  }
+  .next-btn {
+    display: block;
+  }
+  .mobil__block {
+    top: 0;
+    z-index: 999;
+    position: fixed;
+  }
+}
