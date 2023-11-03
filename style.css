@@ -852,3 +852,156 @@ h3 {
     position: fixed;
   }
 }
+@media (max-width: 927px) {
+  .flex-mobile {
+    height: auto;
+  }
+  .dop-btn {
+    margin-left: 0px;
+  }
+  .cat-button {
+    margin-top: 1020px;
+  }
+  .appl__block-flex {
+    padding-left: 200px;
+  }
+  .shadow {
+    margin-top: 600px;
+  }
+  footer {
+    padding: 20px 40px;
+  }
+  .description {
+    padding: 20px;
+  }
+  .block-des-flex {
+    gap: 20px;
+  }
+}
+@media (max-width: 717px) {
+  .block-questions {
+    width: 400px;
+  }
+  .block-activ {
+    margin-left: -385px;
+    width: 400px;
+    height: auto;
+  }
+}
+@media (max-width: 695px) {
+  h1 {
+    width: auto;
+    font-size: 40px;
+  }
+  .text-p {
+    text-align: center;
+    width: auto;
+  }
+  .appl__block-flex {
+    padding-left: 100px;
+  }
+  .shadow {
+    margin-top: 650px;
+  }
+}
+@media (max-width: 636px) {
+  .footer__blocks {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .block-logo {
+    gap: 0;
+  }
+  footer {
+    height: 400px;
+  }
+}
+@media (max-width: 610px) {
+  .block-des-flex {
+    flex-direction: column;
+  }
+}
+@media (max-width: 565px) {
+  .shadow {
+    margin-top: 670px;
+  }
+  .slider {
+    display: none;
+  }
+  .block-city {
+    display: none;
+  }
+  .des-h {
+    margin-left: 60px;
+  }
+  .appl__block-flex {
+    align-items: center;
+    padding-left: 0;
+  }
+  .appl-p {
+    text-align: center;
+  }
+  .shadow {
+    margin-top: 690px;
+  }
+  footer {
+    height: 700px;
+  }
+  .block-search {
+    flex-direction: row;
+  }
+  .elements-flex {
+    flex-direction: row;
+  }
+  .footer__blocks {
+    gap: 50px;
+  }
+}
+@media (max-width: 440px) {
+  .block {
+    width: 300px;
+    height: 540px;
+  }
+  .heart {
+    margin-top: 144px;
+  }
+  .card {
+    width: 300px;
+  }
+  .block-catalog {
+    width: 300px;
+  }
+  .des-h {
+    margin-left: 40px;
+  }
+  .cat-p {
+    font-size: 16px;
+  }
+  .block-questions {
+    width: 300px;
+  }
+  .block-activ {
+    margin-left: -290px;
+    width: 310px;
+  }
+}
+@media (max-width: 343px) {
+  .block-link-logo {
+    display: none;
+  }
+  .appl-p {
+    width: auto;
+  }
+  .appl-h {
+    text-align: center;
+  }
+  .shadow {
+    margin-top: 720px;
+  }
+  .des-h {
+    margin-left: 20px;
+  }
+  .block-logo-btn {
+    gap: 50px;
+  }
+}
