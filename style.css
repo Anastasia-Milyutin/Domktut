@@ -13,6 +13,12 @@ body {
 .section-meny-mobile {
   display: none;
 }
+.welcom-btn {
+  margin-top: 60px;
+}
+.button-mobil-div {
+  display: none;
+}
 .orange-btn {
   width: 280px;
   height: 50px;
@@ -95,11 +101,11 @@ header {
   align-items: center;
   gap: 30px;
 }
-.block-search {
+.search {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 0px;
 }
 .search-a {
   color: #fff;
@@ -179,6 +185,14 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+.next-btn {
+  display: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+}
+
 .block-form__flex {
   display: flex;
   flex-direction: row;
@@ -830,6 +844,9 @@ h3 {
   }
 }
 @media (max-width: 975px) {
+  .block-des-flex {
+    align-items: start;
+  }
   .flex {
     flex-direction: column;
   }
@@ -844,6 +861,8 @@ h3 {
     display: none;
   }
   .next-btn {
+    width: 35px;
+    height: 35px;
     display: block;
   }
   .mobil__block {
@@ -851,7 +870,17 @@ h3 {
     z-index: 999;
     position: fixed;
   }
+  .dop-btn {
+    margin-left: -500px;
+  }
+  .cat-button {
+    margin-left: 0;
+  }
+  .shadow {
+    margin-top: 580px;
+  }
 }
+
 @media (max-width: 927px) {
   .flex-mobile {
     height: auto;
@@ -922,8 +951,14 @@ h3 {
   }
 }
 @media (max-width: 565px) {
+  .mobil__block-btn {
+    display: block;
+  }
   .shadow {
     margin-top: 670px;
+  }
+  .button-mobil-div {
+    display: block;
   }
   .slider {
     display: none;
@@ -958,6 +993,12 @@ h3 {
   }
 }
 @media (max-width: 440px) {
+  .appl-h {
+    text-align: center;
+  }
+  .shadow {
+    margin-top: 710px;
+  }
   .block {
     width: 300px;
     height: 540px;
@@ -992,9 +1033,7 @@ h3 {
   .appl-p {
     width: auto;
   }
-  .appl-h {
-    text-align: center;
-  }
+
   .shadow {
     margin-top: 720px;
   }
